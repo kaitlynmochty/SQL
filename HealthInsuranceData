@@ -1,0 +1,65 @@
+/* Health insurance data by different state */
+
+CREATE TABLE insurance (id INTEGER PRIMARY KEY,state TEXT, uninsured_rate_2010 INTEGER,  uninsured_rate_2015 INTEGER, 
+employer_health_insurance_2015 INTEGER, marketplace_insurance_coverage_2016 INTEGER, state_medicaid_expansion_2016 TEXT, 
+medicaid_enrollment_2013 INTEGER, medicaid_enrollment_2016 INTEGER, medicare_enrollment_2016 INTEGER);
+
+INSERT INTO insurance VALUES (1, "Alabama", 14.6, 10.1, 2545000, 165534, "false", 799176, 910775, 989855);
+INSERT INTO insurance VALUES (2, "Alaska", 19.9, 14.9, 390000, 17995, "true", 122334, 166625, 88966);
+INSERT INTO insurance VALUES (3, "Arizona", 16.9, 10.8, 3288000, 179445, "true", 1201770, 1716196, 1175624);
+INSERT INTO insurance VALUES (4, "Arkansas", 17.5, 9.5, 1365000, 63357, "true", 556851, 920194, 606146);
+INSERT INTO insurance VALUES (5, "California", 18.5, 8.6, 19552000, 1415428, "true", 7755381, 11843081, 5829777);
+INSERT INTO insurance VALUES (6, "Colorado", 15.9, 8.1, 2949000, 108311, "true", 783420, 1375264, 820234);
+INSERT INTO insurance VALUES (7, "Connecticut", 9.1, 6, 2148000, 102917, "true", NULL, 761137, 644136);
+INSERT INTO insurance VALUES (8, "Delaware", 9.7, 5.9, 564000, 25379, "true", 223324, 236702, 186835);
+INSERT INTO insurance VALUES (9, "D.C.", 7.6, 3.8, 388000, 17666, "true", 235786, 255491, 90492);
+INSERT INTO insurance VALUES (10, "Florida", 21.3, 13.3, 8847000, 1531714, "false", 3104996, 3644673, 4149593);
+INSERT INTO insurance VALUES (11, "Georgia", 19.7, 13.9, 52400000, 478016, "false", 1535090, 1782301, 1574058);
+INSERT INTO insurance VALUES (12, "Hawaii", 7.9, 4, 867000, 13313, "true", 288357, 341200, 252514);
+INSERT INTO insurance VALUES (13, "Idaho", 17.7, 11, 836000, 94270, "false", 238150, 293905, 294284);
+INSERT INTO insurance VALUES (14, "Illinois", 13.8, 7.1, 7359000, 335243, "true", 2626943, 3117939, 2118300);
+INSERT INTO insurance VALUES (15, "Indiana", 14.8, 9.6, 3825000, 168884, "true", 1120674, 11489805, 1181014);
+INSERT INTO insurance VALUES (16, "Iowa", 9.3, 5, 1862000, 48949, "true", 493515, 619055, 587780);
+INSERT INTO insurance VALUES (17, "Kansas", 13.9, 9.1, 1659000, 89566, "false", 378160, 421638, 499753);
+INSERT INTO insurance VALUES (18, "Kentucky", 15.3, 6, 2316000, 74640, "true", 606805, 1220788, 881938);
+INSERT INTO insurance VALUES (19, "Louisiana", 17.8, 11.9, 2295000, 184403, "true", 1019787, 1328708, 817272);
+INSERT INTO insurance VALUES (20, "Maine", 10.1, 68.4, 702000, 75240, "false", NULL, 273160, 315160);
+INSERT INTO insurance VALUES (21, "Maryland", 11.3, 6.6, 3700000, 135208, "true", 856297, 1252304, 960848);
+INSERT INTO insurance VALUES (22, "Massachusetts", 4.4, 2.8, 4232000, 207121, "true", 1296359, 1684328, 1252277);
+INSERT INTO insurance VALUES (23, "Michigan", 12.4, 6.1, 5876000, 313123, "true", 1912009, 2300958, 1947787);
+INSERT INTO insurance VALUES (24, "Minnesota", 9.1, 4.5, 3319000, 74060, "true", 873040, 1051509, 944222);
+INSERT INTO insurance VALUES (25, "Mississippi", 18.2, 12.7, 1326000, 77747, "false", 637299, 693869, 571699);
+INSERT INTO insurance VALUES (26, "Missouri", 13.2, 9.8, 3389000, 252044, "false", 846084, 967284, 1163543);
+INSERT INTO insurance VALUES (27, "Montana", 17.3, 11.6, 510000, 51758, "true", 148974, 224048, 209389);
+INSERT INTO insurance VALUES (28, "Nebraska", 11.5, 8.2, 1100000, 80213, "false", 244600, 242702, 322796);
+INSERT INTO insurance VALUES (29, "Nevada", 22.6, 12.3, 1505000, 79876, "true", 332560, 614298, 471747);
+INSERT INTO insurance VALUES (30, "New Hampshire", 11.1, 6.3, 853000, 49114, "true", 127082, 189429, 275803);
+INSERT INTO insurance VALUES (31, "New Jersey", 13.2, 8.7, 5450000, 249395, "true", 1283851, 1784529, 1528961);
+INSERT INTO insurance VALUES (32, "New Mexico", 19.6, 10.9, 884000, 47497, "true", 457678, 766732, 385918);
+INSERT INTO insurance VALUES (33, "New York", 11.9, 7.1, 10895000, 224014, "true", 5678417, 6431165, 3424666);
+INSERT INTO insurance VALUES (34, "North Carolina", 16.8, 11.2, 4934000, 545354, "false", 1595952, 2072282, 1823454);
+INSERT INTO insurance VALUES (35, "North Dakota", 9.8, 7.8, 450000, 20536, "true", 69980, 89763, 122294);
+INSERT INTO insurance VALUES (36, "Ohio", 12.3, 6.5, 6831000, 212046, "true", 2341481, 3003170, 2208504);
+INSERT INTO insurance VALUES (37, "Oklahoma", 18.9, 13.9, 1948000, 130178, "false", 790051, 788544, 693677);
+INSERT INTO insurance VALUES (38, "Oregon", 17.1, 7, 2070000, 131167, "true", 626356, 1021826, 784032);
+INSERT INTO insurance VALUES (39, "Pennsylvania", 10.2, 6.4, 7502000, 412347, "true", 2386046, 2883114, 2588577);
+INSERT INTO insurance VALUES (40, "Rhode Island", 12.2, 5.7, 597000, 35583, "true", 190833, 287173, 208324);
+INSERT INTO insurance VALUES (41, "South Carolina", 17.5, 10.9, 2487000, 204846, "false", 889744, 994804, 974114);
+INSERT INTO insurance VALUES (42, "South Dakota", 12.4, 10.2, 449000, 24578, "false", 115501, 119835, 161464);
+INSERT INTO insurance VALUES (43, "Tennessee", 14.4, 10.3, 3369000, 231705, "false", 1244516, 1627100, 1266920);
+INSERT INTO insurance VALUES (44, "Texas", 23.7, 17.1, 13709000, 1092650, "false", 4441605, 4770229, 3765946);
+INSERT INTO insurance VALUES (45, "Utah", 15.3, 10.5, 1897000, 164415, "false", 294029, 314182, 358887);
+INSERT INTO insurance VALUES (46, "Vermont", 8, 3.8, 345000, 27883, "true", 161081, 175597, 136021);
+INSERT INTO insurance VALUES (47, "Virginia", 13.1, 9.1, 4850000, 378838, "false", 935434, 988821, 1392261);
+INSERT INTO insurance VALUES (48, "Washington", 14.2, 6.6, 3986000, 158245, "true", 1117576, 1788536, 1238649);
+INSERT INTO insurance VALUES (49, "West Virginia", 14.6, 6, 976000, 33235, "true", 354544, 575645, 423500);
+INSERT INTO insurance VALUES (50, "Wisconsin", 9.4, 5.7, 3521000, 224208, "false", 985531, 1046897, 108854);
+INSERT INTO insurance VALUES (51, "Wyoming", 14.9, 11.5, 335000, 22076, "false", 67518, 63583, 99128);
+
+/*Comparing the differences in percentages of uninsured individuals in each state in 2010 and 2015, and whether that state adopted a Medicaid expansion program or not after the ACA */
+
+SELECT state, uninsured_rate_2010 AS percentage_of_uninsured_2010, uninsured_rate_2015 AS percentage_of_uninsured_2015, state_medicaid_expansion_2016
+FROM insurance;
+
+SELECT state, (uninsured_rate_2010 - uninsured_rate_2015) AS percentage_change_uninsured 
+FROM insurance ORDER BY percentage_change_uninsured DESC;
